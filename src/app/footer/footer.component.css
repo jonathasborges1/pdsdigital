@@ -1,0 +1,90 @@
+
+.myborder1{
+  border: 1px solid red;
+}
+.myborder2{
+  border: 1px solid yellow;
+}
+.myborder3{
+  border: 1px solid deepskyblue;
+}
+
+footer{
+  margin-bottom: 5%;
+  font-size: 1.3vw;
+  line-height: 2.5vw;
+}
+
+.pintavermelho{
+  font-family: monospace;
+  font-size: 1.5vw;
+  font-weight: 900;
+  color: red;
+}
+
+.blocksocialicon{
+  margin: 0% 0% 5% 0%;
+}
+.blockyoutube{
+  padding: 0% 0% 0% 0%;
+}
+.blocktinstagram{
+  margin: 0% 10%;
+  padding: 0% 0% 0% 0%;
+}
+.blocktiktitok{
+  padding: 0% 0% 0% 0%;
+}
+@media(min-width: 320px) and (max-width: 600px) {
+
+  span{ font-weight: 100;}
+  a{ font-weight: 600;}
+  footer{
+    font-size: 1.6vw;
+    margin-bottom: 3%;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%
+  }
+  .blockcopy{
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%
+  }
+  .blocksocialicon{
+    margin: 0% 0% 4% 0%;
+  }
+
+
+ .blockassinatura{
+   margin: 0% 0% 0% 5%;
+ }
+
+  span.emaildosuporte{
+    font-weight: 100;
+  }
+  span.pdsdigital{
+    font-weight: 600;
+  }
+  .containerdocopywriter{
+    line-height: 2vw;
+  }
+  .containerdosuporte{
+    line-height: 3vw;
+  }
+
+  .containerpoliticas{
+    font-size: 1vw;
+    padding: 0% 0% 5% 0%;
+  }
+  .containerdeveloperby{
+    padding: 10% 0% 0% 0%;
+  }
+  .containerdoemail{
+    padding: 2% 0% 1% 10%;
+  }
+  .containerpdsdigital{
+    padding: 0% 0% 0% 10%
+  }
+}
+
+
+

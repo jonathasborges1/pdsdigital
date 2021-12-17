@@ -1,0 +1,46 @@
+.myborder{
+  border: 1px solid red;
+}
+.myborder2{
+  border: 1px solid yellow;
+}
+.myborder3{
+  border: 1px solid fuchsia;
+}
+.myborder4{
+  border: 1px solid chocolate;
+}
+
+
+
+header{
+  padding: 1% 1% 0% 1%;
+  margin:  1% 1% 1% 1%;
+  background: linear-gradient(rgba(16, 152, 0, 0.1) 50%, rgba(16, 250, 0, 0.1) 50%, rgba(0, 55, 3, 0.1) 100%);
+  border: 4px solid rgba(109, 255, 110, 0.1);
+  border-radius: 15px;
+}
+
+.blockdev{
+  padding: 0% 0% 0% 5%;
+  margin: 0% 0% 0% 0%;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.imgcoffe{
+  padding: 0% 2% 0% 2%;
+  margin: 0% 0% 0% 0%;
+}
+
+.blockdigital{
+  padding: 1% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
+}
+
+
+.row>*{
+  padding: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
+}
+

@@ -1,0 +1,277 @@
+section{
+  /*background-image: url('../../assets/img/backgroundverde.png'); */
+}
+
+
+.myborder1{
+  border: 1px solid yellow;
+}
+.myborder2{
+  border: 1px solid red;
+}
+.myborder3{
+  border: 1px solid darkmagenta;
+}
+
+h1.titulo{
+  font-weight: 900;
+  line-height: 0.9;
+}
+h1.titulo>span{
+  font-weight: 100;
+}
+button>span{
+  font-weight: 100;
+}
+h2.subtitulo{
+  font-size: 1.3rem;
+  padding: 10% 0px 0px 0px;
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+
+h2.subtitulo>span{
+  line-height: 2rem;
+  font-weight: 900;
+  border-bottom: 0.4rem solid deepskyblue;
+}
+
+.containerbuttom{
+  margin: 5% 0% 5% 0%;
+  padding: 0% 0% 0% 0%;
+  line-height: 0rem;
+  font-weight: 600;
+  border-radius: 12px;
+}
+.buttomcustom2{
+  font-weight: 100;
+}
+
+
+@media (min-width: 320px) and (max-width: 575px)  {
+  .containerbackground{
+    background-image: url("https://ik.imagekit.io/jonathasborges/backgroundverde_V9m0wH3vtnM.png?updatedAt=1639367907814");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .containerbuttom{
+    margin: 3% 0% 3% 0%;
+  }
+  .sementecontainer{
+    margin: 5% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+  }
+  .smartphonelayer{
+    margin:  -15% 0% 0% 0%;
+    z-index: 2;
+  }
+  .grudanomeio{
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+  }
+}
+.buttomcustom{
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0% 0% 0% 0%;
+  padding: 4% 1% 4% 1%;
+}
+.containersmartphone{
+  margin: 0% 0% 2% 0%;
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  .smartphonelayer{
+    margin:  -10% 0% 0% 0%;
+    z-index: 2;
+  }
+  .containerbackground{
+    background-image: url("https://ik.imagekit.io/jonathasborges/backgroundverde_V9m0wH3vtnM.png?updatedAt=1639367907814");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 992px)  {
+  .containerbackground{
+    background-image: url("https://ik.imagekit.io/jonathasborges/backgroudverde1800x600_mbky_ycvs.png?updatedAt=1639621750457");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sementecontainer{
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+  }
+  .smartphonelayer{
+    padding: 0% 0% 0% 0%;
+    margin:  -10% 5% 0% 1%;
+    z-index: 2;
+  }
+}
+
+
+
+
+
+
+
+
+/* animacao palavra neon - digital  */
+.text-container > span {
+  font-family: 'Baloo Thambi', cursive;
+  color: #111;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  animation: glow 8s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: #FFF;
+    text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+  }
+
+  89%, 90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+.text-container > span:nth-child(2) { animation-delay: 1s; }
+.text-container > span:nth-child(3) { animation-delay: 1.5s; }
+.text-container > span:nth-child(4) { animation-delay: 2.0s; }
+.text-container > span:nth-child(5) { animation-delay: 2.5s; }
+.text-container > span:nth-child(6) { animation-delay: 3.0s; }
+.text-container > span:nth-child(7) { animation-delay: 3.5s; }
+
+
+
+
+
+/* animacao sementes flutuando em cima do celular  */
+.grudanadireita{
+  padding: 0% 0% 0% 0%;
+  margin: 0% -40% 0% 0%;
+}
+
+.grudanaesquerda{
+  margin: 0% 0% 0% -15%;
+}
+.layerwhite{
+  width: 100%;
+  height: 3.8rem;
+  background: white;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.sementelayer{
+  z-index: 3;
+}
+
+.animation1 {
+  animation: UpDown 3.3s linear infinite;
+  position: relative;
+  font-size: 4em;
+}
+
+.animation2 {
+  animation: UpDown 3.5s linear infinite;
+  position: relative;
+  font-size: 4em;
+}
+
+.animation3 {
+  animation: UpDown 3.7s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  font-size: 4em;
+}
+
+.mesa{
+  position: absolute;
+}
+
+@keyframes UpDown {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: .5em;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+
+
+
+/* animacao folhas caindo */
+.leaf-channel {
+  display: inline-block;
+  opacity: 0;
+}
+
+.leaf-channel:not(:last-child) {
+}
+
+.leaf-container {
+  display: inline-block;
+  height: 50px;
+}
+
+.leaf-channel-1 { animation: fallingLeaf 6s linear infinite; }
+.leaf-channel-2 { animation: fallingLeaf 6s linear 1.5s infinite; }
+.leaf-channel-3 { animation: fallingLeaf 6s linear 4s infinite; }
+
+.leaf-channel-1 .leaf-container { animation: rotatingLeaf 6s linear infinite; }
+.leaf-channel-2 .leaf-container { animation: rotatingLeaf 6s linear 1.5s infinite; }
+.leaf-channel-3 .leaf-container { animation: rotatingLeaf 6s linear 4s infinite; }
+
+.leaf-img {
+  height: 100%;
+}
+
+@keyframes rotatingLeaf {
+  0% {
+    transform: rotate(-65deg);
+  }
+  33.33% {
+    transform: rotate(-115deg);
+  }
+  66.66% {
+    transform: rotate(-65deg);
+  }
+  100% {
+    transform: rotate(-115deg);
+  }
+}
+
+@keyframes fallingLeaf {
+  0% {
+    transform: translate(0,0);
+    opacity: 0;
+  }
+  5% {opacity: 0;}
+  15% {opacity:1;}
+  /* right */
+  33.33% {
+    transform: translate(20px, 100px);
+  }
+  /* left */
+  66.66% {
+    transform: translate(-20px, 200px);
+  }
+  /* right */
+  85% {opacity:1;}
+  95% {opacity:0;}
+  100% {
+    opacity: 0;
+    transform: translate(0, 300px);
+  }
+}
+
